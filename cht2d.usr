@@ -41,7 +41,7 @@ c-----------------------------------------------------------------------
       include 'NEKUSE'
 
       qvol = 0.0
-      ! if (ieg.gt.nelgv) qvol = 1.0
+      !if (ieg.gt.nelgv) qvol = 1.0
 
       return
       end
