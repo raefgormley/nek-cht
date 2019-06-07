@@ -6,4 +6,4 @@ Box
 0	2	1	x0 x1 ratio
 0	1	1	y0 y1 ratio
 W  ,W  ,W  ,W  ,	V bc's
-f  ,f  ,t  ,t  ,	T bc's
+f  ,f  ,I  ,I  ,	T bc's
