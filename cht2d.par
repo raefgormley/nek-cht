@@ -18,12 +18,12 @@ residualProj = no
 [VELOCITY]
 residualTol = 1e-06
 density = 1.0
-viscosity = 3.1623E-04
+viscosity = 4.4722E-03
 
 [TEMPERATURE]
 
 conjugateHeatTransfer = yes
 
 rhoCp = 1.0
-conductivity = 3.1623E-04
+conductivity = 6.3888E-04
 residualTol = 1e-06
