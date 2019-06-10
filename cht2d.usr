@@ -77,8 +77,8 @@ C     Set boundary conditions
       uz   = 0.0
 
       !temp = -5.0/7.0*y + 6.0/7.0
-      if(x==2) flux = 0.1
-      if(x==0) flux = -0.1
+      if(x==1) flux = 0.5
+      if(x==0) flux = -0.5
 
       return
       end
