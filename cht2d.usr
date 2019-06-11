@@ -94,7 +94,7 @@ C     Set initial conditions
       ux   = 0.0
       uy   = 0.0
       uz   = 0.0
-      temp = 292.4853
+      temp = 289.5
 
       !if(y<0) temp= 1.0
       !if(y>1) temp= 0.0
