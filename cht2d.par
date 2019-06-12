@@ -1,5 +1,5 @@
 [GENERAL]
-numSteps	= 1000000
+numSteps	= 10000000
 stopAt		= numSteps
 dt		= 5e-02
 variableDT	= yes
