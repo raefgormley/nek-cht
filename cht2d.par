@@ -1,10 +1,10 @@
 [GENERAL]
-numSteps	= 100000
+numSteps	= 1000
 stopAt		= numSteps
 dt		= 5e-02
 variableDT	= yes
 targetCFL	= 0.5
-writeInterval	= 1000
+writeInterval	= 100
 writeControl	= timeStep
 timeStepper	= bdf2
 writeDoublePrecision = yes
@@ -13,11 +13,11 @@ writeDoublePrecision = yes
 equation = incompNS
 
 [PRESSURE]
-residualTol = 1e-04
+residualTol = 1e-08
 residualProj = no
 
 [VELOCITY]
-residualTol = 1e-06
+residualTol = 1e-10
 density = 998.2
 viscosity = 0.001003
 
@@ -27,4 +27,4 @@ conjugateHeatTransfer = yes
 
 rhoCp = 4187.44
 conductivity = 0.6
-residualTol = 1e-06
+residualTol = 1e-10
