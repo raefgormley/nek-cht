@@ -60,7 +60,7 @@ c-----------------------------------------------------------------------
    1     format(i9,1p3e12.5,' tmax')
       endif
       
-      call hpts()
+      if (time.eq.500) call hpts()
 
       return
       end
