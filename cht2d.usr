@@ -10,7 +10,7 @@ c-----------------------------------------------------------------------
 
       else
 
-         utrans  = param(7)        ! thermal properties
+         utrans  = param(7)        ! thermal  properties
          udiff   = param(8)
 
          if (ieg .gt. nelgv) then  ! properties in the solid
