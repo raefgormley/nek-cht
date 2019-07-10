@@ -13,11 +13,11 @@ writeDoublePrecision = yes
 equation = incompNS
 
 [PRESSURE]
-residualTol = 1e-08
+residualTol = 1e-04
 residualProj = no
 
 [VELOCITY]
-residualTol = 1e-10
+residualTol = 1e-06
 density = 998.2
 viscosity = 0.001003
 
@@ -27,4 +27,4 @@ conjugateHeatTransfer = yes
 
 rhoCp = 4187.44
 conductivity = 0.6
-residualTol = 1e-10
+residualTol = 1e-06
