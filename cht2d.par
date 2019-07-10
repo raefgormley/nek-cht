@@ -1,4 +1,4 @@
-[GENERAL]
+[GENERAL] !comment
 numSteps	= 100000
 stopAt		= numSteps
 dt		= 5e-02
