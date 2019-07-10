@@ -59,6 +59,8 @@ c-----------------------------------------------------------------------
          if (nid.eq.0) write(6,1) istep,time,umax,tmax
    1     format(i9,1p3e12.5,' tmax')
       endif
+      
+      call hpts()
 
       return
       end
