@@ -79,7 +79,7 @@ C     Set boundary conditions
       uz   = 0.0
 
       !temp = -5.0/7.0*y + 6.0/7.0
-      !if(x.eq.0.1) flux = 0.2983174325
+      if(x.eq.(0.1)) flux = +0.2983174325
       if(x.eq.0) flux = -0.2983174325
 
       return
