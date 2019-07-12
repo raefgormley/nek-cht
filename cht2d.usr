@@ -60,7 +60,7 @@ c-----------------------------------------------------------------------
    1     format(i9,1p3e12.5,' tmax')
       endif
       
-      if (istep.eq.1000) call hpts() !write history point data at specified time step
+      if (istep.eq.10000) call hpts() !write history point data at specified time step
 
       return
       end
