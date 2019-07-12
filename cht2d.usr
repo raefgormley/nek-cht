@@ -10,7 +10,7 @@ c-----------------------------------------------------------------------
 
       else
 
-         utrans  = param(7)        ! thermal  properties
+         utrans  = param(7)        ! thermal properties
          udiff   = param(8)
 
          if (ieg .gt. nelgv) then  ! properties in the solid
@@ -60,7 +60,7 @@ c-----------------------------------------------------------------------
    1     format(i9,1p3e12.5,' tmax')
       endif
       
-      if (istep.eq.10000) call hpts() !write history point data at specified time step
+      if (istep.eq.1000) call hpts() !write history point data at specified time step
 
       return
       end
