@@ -1,5 +1,8 @@
 #EDIT ALL CASE FILES AND INPUT FILES
-sed -i 's/letters .*/letters abc/' testfile # change content in front of keyword letters to desired value
+#sed -i 's/letters .*/letters abc/' testfile # change content in front of keyword letters to desired value
+
+#pull changes from github
+
 
 #COMPILE NEK5000
 #genbox #creates mesh
