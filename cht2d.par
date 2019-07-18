@@ -1,29 +1,30 @@
-[GENERAL]
-numSteps	= 10000
+[GENERAL] !comment
+numSteps	= 300000
 stopAt		= numSteps
 dt		= 5e-02
 variableDT	= yes
 targetCFL	= 0.5
-writeInterval	= 50
+writeInterval	= 10000
 writeControl	= timeStep
 timeStepper	= bdf2
+writeDoublePrecision = yes
 
 [PROBLEMTYPE]
 equation = incompNS
 
 [PRESSURE]
-residualTol = 1e-04
+residualTol = 1e-05
 residualProj = no
 
 [VELOCITY]
-residualTol = 1e-06
-density = 1.0
-viscosity = 3.1623E-04
+residualTol = 1e-07
+density = 998.2
+viscosity = 0.001003
 
 [TEMPERATURE]
 
 conjugateHeatTransfer = yes
 
-rhoCp = 1.0
-conductivity = 3.1623E-04
-residualTol = 1e-06
+rhoCp = 4187.44
+conductivity = 0.6
+residualTol = 1e-07
