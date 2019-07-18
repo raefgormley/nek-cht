@@ -1,7 +1,6 @@
 #EDIT ALL CASE FILES AND INPUT FILES
 #sed -i 's/letters .*/letters abc/' testfile # change content in front of keyword letters to desired value
 
-
 #pull changes from github
 git pull origin bejan84-history-points --no-edit #--no-edit gets around needing to enter a message explaining the merge
 
