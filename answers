@@ -2,15 +2,15 @@
 set timeout -1
 spawn ./compile
 expect "input file name:"
-send -- "cht2dfluid.box\r"
+send -- "cht2dfluid.box\r"    #giving name of .box file for genbox
 expect "Input old (source) file name:"
-send -- "box\r"
+send -- "box\r"     #giving box.rea to reatore2
 expect "Input new (output) file name:"
-send -- "cht2d\r"
+send -- "cht2d\r"     # .re2 output
 expect "Input .rea / .re2 name:"
-send -- "cht2d\r"
+send -- "cht2d\r"   #genmap input
 expect "Input mesh tolerance (default 0.2):"
-send -- "\r"
+send -- "\r"   #mesh tolerance
 expect "password for root:"
 send -- "Br8kPntP\r"
 expect eof
