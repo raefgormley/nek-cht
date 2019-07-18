@@ -1,4 +1,4 @@
-#EDIT ALL CASE FILES AND INPUT FILES
+#EDIT ALL CASE FILES AND INPUT FILESs
 #sed -i 's/letters .*/letters abc/' testfile # change content in front of keyword letters to desired value
 
 #pull changes from github
