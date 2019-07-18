@@ -1,6 +1,5 @@
 #ask for session name
 
-
 #COMPILE NEK5000
 genbox #creates mesh
 reatore2 #converts .rea file to .re2
