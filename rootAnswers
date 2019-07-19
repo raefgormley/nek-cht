@@ -1,0 +1,6 @@
+#!/usr/bin/expect -f
+set timeout -1
+spawn ./copyData
+expect "password for root:"
+send -- "Br8kPntP\r"
+expect eof
