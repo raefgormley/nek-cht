@@ -16,11 +16,11 @@ path='/data/RaefData/'$sessionName
 cd $path
 
 #make answers and compile runnable
-chmod -x ./answers
-chmod -x ./compile
+chmod -x ./answers2
+chmod -x ./compile2
 
 #run answers to compile case
-./answers
+./answers2
 
 #run case
 nekbmpi $sessionName 4
