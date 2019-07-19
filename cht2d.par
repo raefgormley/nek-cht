@@ -1,10 +1,10 @@
 [GENERAL] !comment
-numSteps	= 300000
+numSteps	= 1000
 stopAt		= numSteps
 dt		= 5e-02
 variableDT	= yes
 targetCFL	= 0.5
-writeInterval	= 10000
+writeInterval	= 100
 writeControl	= timeStep
 timeStepper	= bdf2
 writeDoublePrecision = yes
