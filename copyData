@@ -1,4 +1,4 @@
 #COPY FILES TO DATA DIRECTORY
-#path='/data/RaefData/'${PWD##*/}        #define path to data directory
+path='/data/RaefData/'$sessionName       #define path to data directory
 sudo mkdir -p $path #make directory in data directory
 sudo rsync -a . $path   #copy files to data directory
