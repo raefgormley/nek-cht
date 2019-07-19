@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 set timeout -1
-spawn ./compile
+spawn ./compile2
 expect "input file name:"
 send -- "cht2dfluid.box\r"
 expect "Input old (source) file name:"
